@@ -1,0 +1,37 @@
+Software development models are various processes or methods that are chosen for project development depending on the objectives and goals
+of the project. Many development life cycle models have been developed to achieve various essential objectives. Models specify 
+the various steps of the process and the order in which they are executed.
+
+What is Software Modeling?
+Software modeling is the process of creating abstract representations of a software system. These models serve as blueprints that
+guide developers, designers, and stakeholders through the system’s structure, behavior, and functionality.
+
+By using diagrams and various modeling languages, software modeling helps in visualizing and understanding 
+the complex aspects of the software, making it easier to plan, develop, and manage the system.
+
+Top 8 Software Development Models
+Choosing the right model is very important for the Development of a Software Product or application. Development and 
+testing processes are carried out based on the model.
+
+Different companies, depending on the software application or product, choose the type of development model whichever is 
+appropriate for their application. But these days 'Agile Methodology' is the most popular in the market.
+
+
+1. Agile Model
+Agile Development Model is a combination of iterative and incremental models, that is, it is made up of iterative and incremental models.
+In Agile model, focus is given to process adaptability and customer satisfaction.
+In earlier times, iterative waterfall model was used to create software. But in today's time developers have to face many problems.
+The biggest problem is that in the middle of software development, the customer asks to make changes in the software. 
+It takes a lot of time and money to make these changes. So to overcome all these shortcomings, the agile model was proposed in the 1990s.
+
+
+The Agile Model was created mainly to make changes in the middle of software development so that the software project can be completed quickly.
+
+1.In the agile model, the software product is divided into small incremental parts. In this, the smallest part is developed first 
+and then the larger one.
+2.And each incremental part is developed over iteration.
+3.Each iteration is kept small so that it can be easily managed. And it can be completed in two-three weeks. 
+Only one iteration is planned, developed and deployed at a time.
+
+
+
