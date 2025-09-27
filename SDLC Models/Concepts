@@ -34,4 +34,109 @@ and then the larger one.
 Only one iteration is planned, developed and deployed at a time.
 
 
+2. Waterfall Model
+Waterfall Model is a famous and good version of SDLC(System Development Life Cycle) for software engineering. 
+The waterfall model is a linear and sequential model, which means that a development phase cannot begin until the previous phase is completed.
+We cannot overlap phases in waterfall model.
+Phases of Waterfall model
+Similarly waterfall model also works, once one phase of development is completed then we move to the next phase but cannot go back
+to the previous phase. In the waterfall model, the output of one phase serves as the input for the other phase.
+
+
+3. V-Model
+V-Model is an SDLC model, it is also called Verification and Validation Model.
+V-Model is widely used in the Software Development Process, and it is considered a disciplined model. 
+In V-Model, the execution of each process is sequential, that is, the new phase starts only after the previous phase ends.
+Phases of V-model
+1.It is based on the association of testing phase with each development phase that is in V-Model with each development phase, 
+its testing phase is also associated in a V-shape in other words both Software Development and testing activities take place at the same time.
+2.So in this model, Verification Phase will be on one side, Validation Phase will be on the other side that is both the activities 
+run simultaneously and both of them are connected to each other in V-Shape through Coding Phase, hence it is called V-Model.
+3.V-Design: In V-Design the left side represents the development activity, the right side represents the testing activity.
+
+
+4. Incremental Model
+In Incremental Model, the Software Development Process is divided into several increments and the same phases are followed in each increment. 
+In simple language, under this model a complex project is developed in many modules or builds.
+1.For example, we collect the customer's requirements, now instead of making the entire software at once, we first take some requirements 
+and based on them create a module or function of the software and deliver it to the customer.
+Then we take some more requirements and based on them add another module to that software.
+2.Similarly, modules are added to the software in each increment until the complete system is created.
+However, the requirements for making a complex project in multiple iterations/parts should be clear.
+3.If we understand the entire principle of Incremental methodology, then it starts by developing an initial implementation,
+then user feedback is taken on it, and it is developed through several versions until an accepted system is developed. 
+Important functionalities of the software are developed in the initial iterations.
+Each subsequent release of a software module adds functions to the previous release. This process continues until the final software
+is obtained.
+
+
+5. RAD Model
+RAD Model stands for rapid application development model. The methodology of RAD model is similar to that of incremental or waterfall model. 
+It is used for small projects.
+The main objective of RAD model is to reuse code, components, tools, processes in project development.
+1.If the project is large then it is divided into many small projects and these small projects are planned one by one and completed. 
+In this way, by completing small projects, the large project gets ready quickly.
+2.In RAD model, the project is completed within the given time and all the requirements are collected before starting the project.
+It is very fast and there are very less errors in it.
+
+
+6. Iterative Model
+In Iterative Model we start developing the software with some requirements and when it is developed, it is reviewed.
+If there are requirements for changes in it, then we develop a new version of the software based on those requirements.
+This process repeats itself many times until we get our final product.
+Through this diagram you can understand the Interactive model.
+1.So, in Iterative model a software is developed by following several iterations. Iteration means that we are repeating the Development Process
+again and again. For example, we develop the first version of the software following the SDLC process with some software requirements.
+2.After the first version is developed, if there is a need to change the software , then a new version is developed with the second iteration.
+Now again we will see if the new version is enough, if not then we will make changes in it with the third iteration. The iteration will be
+repeated until the complete software is ready.
+3.The basic concept of Iterative model is that the software should be developed through repeated cycles or what we also call iteration 
+and only a small part of it should be developed at a time. This model was developed to overcome the drawbacks of the classical waterfall model.
+
+
+7. Spiral Model
+Spiral Model is a software development process model. This model has characteristics of both iterative and waterfall models. This model is 
+used in projects which are large and complex. This model was named spiral because if we look at its figure, it looks like a spiral, 
+in which a long curved line starts from the center point and makes many loops around it. The number of loops in the spiral is not decided 
+in advance but it depends on the size of the project and the changing requirements of the user. We also call each loop of the spiral 
+a phase of the software development process.
+In Spiral Model the entire process of software development is described in four phases which are repeated until the project is completed.
+A software project goes through these loops again and again in iterations. After each iteration a more and more complete version of the
+software is developed. The most special thing about this model is that risks are identified in each phase and they are resolved 
+through prototyping. This feature is also called Risk Handling.
+Since it also includes the approaches of other SDLC models, it is also called Meta Model. It was first developed by Barry Boehm in 1986.
+
+
+
+8. Prototype model
+Prototype Model is an activity in which prototypes of software applications are created. First a prototype is created and then the 
+final product is manufactured based on that prototype.
+One problem in this model is that if the end users are not satisfied with the prototype model, then a new prototype model is created again, 
+due to which this model consumes a lot of money and time.
+1.The prototype model was developed to overcome the shortcomings of the waterfall model.
+2.This model is created when we do not know the requirements well.
+3.The specialty of this model is that this model can be used with other models as well as alone.
+
+
+
+Why companies are shifting toward agile Software Development models?
+In earlier times, iterative waterfall model was used to create software. But in today's time developers have to face many problems. 
+The biggest problem is that in the middle of software development, the customer asks to make changes in the software. It takes a lot of time
+and money to make these changes. The agile model was created mainly to make changes in the middle of Software Development so that the software
+project can be completed quickly.
+Agile focuses on customer-centric approach that constantly take feedback from customer and make changes in the middle of software developer
+according to their needs and expectation. Agile Methodologies like scrum adopt iterative and incremental approach this accelerate the
+time-to-market for new features and product.
+
+Conclusion
+Choosing the right software development model is important for the Success of a Project. Each model offers unique advantages and is suitable
+for Different Types of Projects. Agile Methodologies, due to their flexibility and customer-centric approach, are increasingly popular in the
+industry. By adopting Agile, companies can accelerate time-to-market and better adapt to changing requirements, leading to higher customer 
+satisfaction and Successful Project Outcomes.
+
+
+
+
+
+
 
