@@ -84,3 +84,19 @@ software changes that are required.
 Engineering discipline
  Using appropriate theories and methods to solve problems 
 bearing in mind organizational and financial constraints.
+
+Software process activities
+ Software specification
+ where customers and 
+engineers define the software that is to be produced and 
+the constraints on its operation.
+ Software development
+where the software is designed 
+and programmed.
+ Software validation
+ where the software is checked to 
+ensure that it is what the customer requires.
+ Software evolution
+ where the software is modified to 
+reflect changing customer and market requirements.
+
