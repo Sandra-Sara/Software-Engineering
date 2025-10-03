@@ -144,3 +144,20 @@ Systems of systems
 These are systems that are composed of a number of other 
 software systems.
 
+
+Software engineering fundamentals
+ Some fundamental principles apply to all types of 
+software system, irrespective of the development 
+techniques used:
+Systems should be developed using a managed and understood 
+development process. Of course, different processes are used 
+for different types of software.
+
+ Dependability and performance are important for all types of 
+system. 
+
+Understanding and managing the software specification and 
+requirements (what the software should do) are important.
+
+Where appropriate, you should reuse software that has already 
+been developed rather than write new software.
