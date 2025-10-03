@@ -176,3 +176,57 @@ customer needs.
 A software process model is an abstract representation 
 of a process. It presents a description of a process from 
 some particular perspective.
+
+
+Plan-driven and agile processes
+ Plan-driven processes are processes where all of the 
+process activities are planned in advance and progress 
+is measured against this plan. 
+In agile processes, planning is incremental and it is 
+easier to change the process to reflect changing 
+customer requirements. 
+In practice, most practical processes include elements of 
+both plan-driven and agile approaches. 
+There are no right or wrong software processes.
+
+Software process models
+The waterfall model
+Plan-driven model. Separate and distinct phases of specification 
+and development.
+Incremental development
+Specification, development and validation are interleaved. May 
+be plan-driven or agile.
+Integration and configuration
+The system is assembled from existing configurable 
+components. May be plan-driven or agile.
+In practice, most large systems are developed using a 
+process that incorporates elements from all of these 
+models.
+
+
+Waterfall model phases
+There are separate identified phases in the waterfall 
+model:
+Requirements analysis and definition
+ System and software design
+ Implementation and unit testing
+ Integration and system testing
+ Operation and maintenance
+ The main drawback of the waterfall model is the difficulty 
+of accommodating change after the process is 
+underway. In principle, a phase has to be complete 
+before moving onto the next phase.
+
+Waterfall model problems
+Inflexible partitioning of the project into distinct stages 
+makes it difficult to respond to changing customer 
+requirements.
+Therefore, this model is only appropriate when the requirements 
+are well-understood and changes will be fairly limited during the 
+design process. 
+Few business systems have stable requirements.
+The waterfall model is mostly used for large systems 
+engineering projects where a system is developed at 
+several sites.
+In those circumstances, the plan-driven nature of the waterfall 
+model helps coordinate the work. 
