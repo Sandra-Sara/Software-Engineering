@@ -56,3 +56,28 @@ The specification of what the software should do is owned by
 the customer for the software and they make decisions on 
 software changes that are required.
 
+ Product characteristic Description
+
+ Maintainability
+ Software should be written in such a way so that it can evolve to
+ meet the changing needs of customers. This is a critical attribute
+ because software change is an inevitable requirement of a
+ changing business environment.
+
+ Dependability and security
+ Software dependability includes a range of characteristics
+ including reliability, security and safety. Dependable software
+ should not cause physical or economic damage in the event of
+ system failure. Malicious users should not be able to access or
+ damage the system.
+
+ Efficiency
+ Software should not make wasteful use of system resources such
+ as memory and processor cycles. Efficiency therefore includes
+ responsiveness, processing time, memory utilisation, etc.
+
+ Acceptability
+ Software must be acceptable to the type of users for which it is
+ designed. This means that it must be understandable, usable and
+ compatible with other systems that they use.
+
