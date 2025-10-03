@@ -1,0 +1,54 @@
+The Unified Process (UP) is a software development framework used for object-oriented modeling. The framework is also known as Rational
+Unified Process (RUP) and the Open Unified Process (Open UP). Some of the key features of this process include:
+It defines the order of phases.
+It is component-based, meaning a software system is built as a set of software components. There must be well-defined interfaces
+between the components for smooth communication.
+It follows an iterative, incremental, architecture-centric, and use-case driven approach.
+
+The case-driven approach
+Use a case-driven approach that follows a set of actions performed by one or more entities. A use case refers to the process of the
+team performing the development work from the functional requirements. The functional requirements are made from the list of requirements
+that were specified by the client. For example, an online learning management system can be specified in terms of use cases such as 
+"add a course," "delete a course," "pay fees," and so on.
+
+The architecture-centric approach
+The architecture-centric approach defines the form of the system and how it should be structured to provide a specific functionality
+whereas the use case defines the functionality.
+
+The iterative and incremental approach
+An iterative and incremental approach means that the product will be developed in multiple phases. During these phases, 
+the developers evaluate and test.
+
+Phases
+We can represent a unified process model as a series of cycles. Each cycle ends with the release of a new system version 
+for the customers. We have four phases in every cycle:
+Inception
+Elaboration
+Construction
+Transition
+
+Inception
+The main goal of this phase involves delimiting the project scope. This is where we define why we are making this product
+in the first place. It should have the following:
+What are the key features?
+How does this benefit the customers?
+Which methodology will we follow?
+What are the risks involved in executing the project?
+Schedule and cost estimates.
+
+Elaboration
+We build the system given the requirements, cost, and time constraints and all the risks involved. It should include the following:
+Develop with the majority of the functional requirements implemented.
+Finalize the methodology to be used.
+Deal with the significant risks involved.
+
+Construction
+This phase is where the development, integration, and testing take place. We build the complete architecture in this phase 
+and hand the final documentation to the client.
+
+Transition
+This phase involves the deployment, multiple iterations, beta releases, and improvements of the software. The users will test 
+the software, which may raise potential issues. The development team will then fix those errors.
+
+
+
