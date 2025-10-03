@@ -34,3 +34,25 @@ Ans: System engineering is concerned with all aspects of
 Ans:Coping with increasing diversity, demands for reduced
  delivery times and developing trustworthy software.
 
+Software products
+ Generic products
+ Stand-alone systems that are marketed and sold to any 
+customer who wishes to buy them.
+ Examples – PC software such as graphics programs, project 
+management tools; CAD software; software for specific markets 
+such as appointments systems for dentists.
+ Customized products
+ Software that is commissioned by a specific customer to meet 
+their own needs. 
+Examples – embedded control systems, air traffic control 
+software, traffic monitoring systems
+
+Generic products
+ The specification of what the software should do is owned by the 
+software developer and decisions on software change are made 
+by the developer.
+ Customized products
+The specification of what the software should do is owned by 
+the customer for the software and they make decisions on 
+software changes that are required.
+
