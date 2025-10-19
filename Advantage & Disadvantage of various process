@@ -1,0 +1,7 @@
+| **Model**             | **Advantages**                                                             | **Disadvantages**                                                                            |
+| --------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Waterfall Model**   | Simple and easy to manage; clear stages and deliverables.                  | Inflexible; difficult to go back to previous stages; not good for changing requirements.     |
+| **Incremental Model** | Delivers working software early; easier to test and debug small parts.     | Requires good planning; integration of increments can be complex.                            |
+| **Spiral Model**      | Focuses on risk analysis; suitable for large, complex projects.            | Expensive and complex to manage; requires risk assessment expertise.                         |
+| **Agile Model**       | Flexible; customer feedback is integrated continuously; fast delivery.     | Requires active user involvement; not suitable for very large teams or fixed-scope projects. |
+| **V-Model**           | Testing is planned early; good for small projects with clear requirements. | Rigid; hard to adapt to changes once process starts.                                         |
