@@ -1,0 +1,71 @@
+ Coupling এবং Cohesion
+Coupling কী?
+Coupling মানে হলো একটি সফটওয়্যার মডিউল অন্য মডিউলের উপর কতটা নির্ভরশীল।
+High Coupling → মডিউলগুলো খুব বেশি সংযুক্ত থাকে, ফলে একটি মডিউলে পরিবর্তন করলে অন্য মডিউলেও প্রভাব পড়ে।
+Low Coupling → মডিউলগুলো স্বাধীনভাবে কাজ করে, ফলে একটি মডিউলে পরিবর্তন করলে অন্য মডিউলে তেমন প্রভাব পড়ে না।
+
+Cohesion কী?
+Cohesion মানে হলো একটি মডিউলের ভেতরের অংশগুলো কতটা একসাথে একটি নির্দিষ্ট উদ্দেশ্য পূরণ করে।
+High Cohesion → মডিউলের ভেতরের অংশগুলো ঘনিষ্ঠভাবে সম্পর্কিত এবং একটি নির্দিষ্ট কাজেই ফোকাস করে।
+Low Cohesion → মডিউলের ভেতরের অংশগুলো আলগা সম্পর্কিত এবং একাধিক কাজ করে।
+
+Coupling এর ধরন
+Content Coupling – একটি মডিউল সরাসরি অন্য মডিউলের কোড ব্যবহার করে।
+Common Coupling – একাধিক মডিউল একই global data ব্যবহার করে।
+Control Coupling – একটি মডিউল অন্য মডিউলকে নিয়ন্ত্রণ করে (flag বা parameter দিয়ে)।
+Stamp Coupling – একটি মডিউল অন্য মডিউলকে data structure পাঠায়।
+Data Coupling – মডিউলগুলো শুধুমাত্র প্রয়োজনীয় data আদান-প্রদান করে।
+ সবচেয়ে ভালো হলো Data Coupling কারণ এতে মডিউলগুলো স্বাধীন থাকে।
+
+ Cohesion এর ধরন
+Coincidental Cohesion – এলোমেলোভাবে কোড একসাথে রাখা।
+Logical Cohesion – একই ধরনের কাজের কোড একসাথে রাখা।
+Temporal Cohesion – একই সময়ে চালানো দরকার এমন কাজ একসাথে রাখা।
+Procedural Cohesion – নির্দিষ্ট ক্রমে চালানো দরকার এমন কাজ একসাথে রাখা।
+Communicational Cohesion – একই data ব্যবহার করে এমন কাজ একসাথে রাখা।
+Sequential Cohesion – একটি কাজের output অন্য কাজের input হয়।
+Functional Cohesion – সবকিছু একসাথে একটি নির্দিষ্ট কাজের জন্য।
+সবচেয়ে ভালো হলো Functional Cohesion কারণ এতে মডিউল স্পষ্টভাবে একটি কাজেই ফোকাস করে।
+
+Low Coupling এর সুবিধা
+মডিউল স্বাধীন থাকে।
+পরিবর্তন করলে অন্য মডিউলে প্রভাব পড়ে না।
+সহজে maintain করা যায়।
+
+High Cohesion এর সুবিধা
+মডিউল স্পষ্টভাবে একটি কাজ করে।
+কোড সহজে বোঝা যায়।
+পুনঃব্যবহারযোগ্য হয়।
+
+ High Coupling এর অসুবিধা
+একটি মডিউল পরিবর্তন করলে অন্য মডিউল ভেঙে যেতে পারে।
+সিস্টেম maintain করা কঠিন হয়।
+
+ Low Cohesion এর অসুবিধা
+মডিউল অনেক কাজ করে, ফলে জটিল হয়ে যায়।
+পুনঃব্যবহারযোগ্য হয় না।
+
+Design Phase (SDLC)
+Design Phase দুই ভাগে বিভক্ত:
+1. Conceptual Design
+গ্রাহকের ভাষায় লেখা হয়।
+সিস্টেম কী করবে তা ব্যাখ্যা করে।
+Implementation থেকে স্বাধীন।
+Requirement Document এর সাথে যুক্ত থাকে।
+2. Technical Design
+Hardware ও Software এর বিস্তারিত।
+Software Architecture, Network Architecture।
+Data Structure ও Data Flow।
+I/O Component ও Interface।
+
+ Modularization এর সুবিধা
+সিস্টেম সহজে বোঝা যায়।
+Maintain করা সহজ।
+Module বারবার ব্যবহার করা যায়।
+নতুন করে কোড লিখতে হয় না।
+
+🎯 সারসংক্ষেপ
+👉 Coupling = মডিউলগুলোর মধ্যে সম্পর্ক।
+👉 Cohesion = একটি মডিউলের ভেতরের অংশগুলোর সম্পর্ক।
+👉 ভালো ডিজাইনের জন্য দরকার Low Coupling + High Cohesion।
+👉 এতে সফটওয়্যার হয় সহজে maintainable, scalable এবং reliable।
