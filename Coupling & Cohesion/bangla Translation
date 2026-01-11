@@ -69,3 +69,67 @@ Module বারবার ব্যবহার করা যায়।
 👉 Cohesion = একটি মডিউলের ভেতরের অংশগুলোর সম্পর্ক।
 👉 ভালো ডিজাইনের জন্য দরকার Low Coupling + High Cohesion।
 👉 এতে সফটওয়্যার হয় সহজে maintainable, scalable এবং reliable।
+
+
+Coupling-এর ধরনসমূহ
+1. Data Coupling
+মডিউলগুলো শুধু ডাটা আদান-প্রদান করে যোগাযোগ করে।
+কোনো অতিরিক্ত তথ্য (tramp data) থাকে না।
+উদাহরণ: Customer Billing System।
+
+2. Stamp Coupling
+একটি মডিউল থেকে অন্য মডিউলে পুরো data structure পাঠানো হয়।
+এতে tramp data থাকতে পারে।
+Efficiency-এর কারণে কখনও দরকার হয়।
+
+3. Control Coupling
+মডিউলগুলো control information (যেমন flag বা parameter) পাঠিয়ে যোগাযোগ করে।
+ভালো হতে পারে যদি reuse করা যায়, খারাপ হতে পারে যদি behavior পুরোপুরি বদলায়।
+উদাহরণ: Sort function যেখানে comparison function argument হিসেবে দেওয়া হয়।
+
+4. External Coupling
+মডিউলগুলো বাহ্যিক সিস্টেম বা হার্ডওয়্যার এর উপর নির্ভরশীল।
+উদাহরণ: Protocol, external file, device format।
+
+5. Common Coupling
+একাধিক মডিউল shared global data ব্যবহার করে।
+অসুবিধা: পরিবর্তন করলে সব মডিউল চেক করতে হয়, reuse কঠিন হয়, maintainability কমে যায়।
+
+6. Content Coupling
+একটি মডিউল সরাসরি অন্য মডিউলের data পরিবর্তন করে বা control flow পাঠায়।
+এটি সবচেয়ে খারাপ coupling, এড়িয়ে চলা উচিত।
+
+7. Temporal Coupling
+দুটি মডিউল সময় বা execution order এর উপর নির্ভরশীল।
+উদাহরণ: একটি মডিউল আগে চালাতে হবে, তারপর অন্যটি।
+Testing ও maintenance কঠিন হয়।
+
+8. Sequential Coupling
+একটি মডিউলের output অন্য মডিউলের input হয়।
+Dependency chain তৈরি হয়, maintain করা কঠিন।
+
+9. Communicational Coupling
+মডিউলগুলো shared communication mechanism ব্যবহার করে।
+উদাহরণ: Shared message queue বা database।
+Performance সমস্যা ও debugging জটিল হতে পারে।
+
+10. Functional Coupling
+একটি মডিউল অন্য মডিউলের functionality এর উপর নির্ভরশীল।
+উদাহরণ: একটি মডিউল অন্য মডিউলের function call করে।
+কোড tightly coupled হয়ে যায়।
+
+11. Data-Structured Coupling
+একাধিক মডিউল একই data structure (যেমন database table, data file) শেয়ার করে।
+Data integrity বজায় রাখা কঠিন হয়, performance সমস্যা হতে পারে।
+
+12. Interaction Coupling
+একটি class-এর method অন্য class-এর method invoke করে।
+সবচেয়ে খারাপ coupling হয় যদি সরাসরি অন্য method-এর internal অংশে access করে।
+ভালো হয় যদি শুধু parameter দিয়ে যোগাযোগ করে।
+
+13. Component Coupling
+একটি class অন্য class-এর সাথে যুক্ত থাকে যদি:
+তার instance variable অন্য class-এর হয়।
+তার method-এর parameter অন্য class-এর হয়।
+তার method-এর local variable অন্য class-এর হয়।
+Component coupling থাকলে interaction coupling থাকার সম্ভাবনা বেশি।
