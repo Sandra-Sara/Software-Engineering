@@ -1,0 +1,10 @@
+
+স্তর	                             কাজ
+System Engineering	             Software-এর ভূমিকা নির্ধারণ করে
+Requirements	                   Function, behavior, performance, constraints define করে
+Design	                         Software architecture তৈরি হয়
+Code	                           Source code লেখা হয়
+Unit Testing	                   প্রতিটি unit/component/class individually test হয়
+Integration Testing	             Modules একসাথে কাজ করছে কিনা test হয়
+Validation Testing	             Requirements অনুযায়ী software কাজ করছে কিনা check হয়
+System Testing	                 পুরো system (software + hardware) একসাথে test হয়
