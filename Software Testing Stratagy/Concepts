@@ -1,4 +1,6 @@
-
+ Spiral Model টা কী বোঝায়?
+এই মডেলটা software development-এর testing অংশকে একটা ঘূর্ণায়মান চক্র (spiral) হিসেবে দেখায়।
+বাইরের স্তর থেকে ভেতরের দিকে গেলে abstraction কমে, আর ভেতর থেকে বাইরে গেলে testing scope বাড়ে।
 স্তর	                             কাজ
 System Engineering	             Software-এর ভূমিকা নির্ধারণ করে
 Requirements	                   Function, behavior, performance, constraints define করে
@@ -8,3 +10,15 @@ Unit Testing	                   প্রতিটি unit/component/class indiv
 Integration Testing	             Modules একসাথে কাজ করছে কিনা test হয়
 Validation Testing	             Requirements অনুযায়ী software কাজ করছে কিনা check হয়
 System Testing	                 পুরো system (software + hardware) একসাথে test হয়
+
+Spiral-এর দিক:
+Development: বাইরের স্তর থেকে ভেতরের দিকে → abstraction কমে
+Testing: ভেতর থেকে বাইরের দিকে → scope বাড়ে
+
+Testing Strategy Summary:
+Unit Testing → Spiral-এর vortex (কেন্দ্র) থেকে শুরু
+প্রতিটি unit/component/class individually test করা হয়
+Integration Testing → এক ধাপ বাইরে
+Design অনুযায়ী modules একসাথে কাজ করছে কিনা check
+Validation Testing → requirements অনুযায়ী কাজ করছে কিনা check
+System Testing → পুরো system (software + hardware) একসাথে test
